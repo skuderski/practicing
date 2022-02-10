@@ -1,10 +1,39 @@
-/*{
+/* THIS IS AN UNIVERSAL SELECTOR
+
+*{
     color:purple;
 }
+
+
 */
+/* THIS IS A TYPE SELECTOR 
 p{
+    color:red;
+}
+*/
+.p{
     color:white;
 }
 .something{
-    color:brown;
+    color:white;
+}
+
+#page{
+    background-color:blue;
+}
+
+/* THIS IS A GROUPING SELECTOR
+.p,
+.something {
+    color:white;
+}
+
+/* THIS IS A CHAINING SELECTOR
+.p.something{
+    color:white;
+}
+*/
+/*THIS IS A DESCENDANT COMBINATOR*/
+.parent .child{
+    color:red;
 }
